@@ -1,7 +1,7 @@
 javascript: (function() {
     var iframe = document.createElement('iframe');
     iframe.src = "https://deepai.org/chat";
-    iframe.sandbox = 'allow-forms allow-scripts allow-same-origin';
+    iframe.sandbox = 'allow-forms allow-scripts allow-same-origin allow-pointer-lock allow-popups';
     iframe.style.position = "fixed";
     iframe.style.top = "-500px";
     iframe.style.left = "calc(50% - 500px)";
